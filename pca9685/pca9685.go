@@ -21,7 +21,7 @@ import (
 	"go.viam.com/rdk/resource"
 )
 
-// Model for viam supported pca9685 board
+// Model for viam supported pca9685 board.
 var Model = resource.NewModel("viam", "pca", "pca9685")
 
 var (

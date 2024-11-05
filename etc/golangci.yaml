@@ -33,6 +33,7 @@ linters:
     - importas
     - interfacebloat
     - interfacer
+    - intrange
     - ireturn
     - maintidx
     - maligned
@@ -40,6 +41,7 @@ linters:
     - musttag
     - nakedret
     - nestif
+    - nilnil
     - nlreturn
     - nosnakecase
     - nonamedreturns
