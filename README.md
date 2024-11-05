@@ -1,6 +1,6 @@
 # [`pca` module](https://github.com/viam-modules/pca)
 
-This [pca module](https://app.viam.com/module/viam/pca) implements a pca [pca9685 board](<LINK TO HARDWARE>), used for <DESCRIPTION> using the [`rdk:component:board` API](https://docs.viam.com/appendix/apis/components/board/).
+This [pca module](https://app.viam.com/module/viam/pca) implements a [PCA9685 Arduino I<sup>2</sup>C Interface](https://www.adafruit.com/product/815) using the [`rdk:component:board` API](https://docs.viam.com/appendix/apis/components/board/).
 
 > [!NOTE]
 > Before configuring your board, you must [create a machine](https://docs.viam.com/cloud/machines/#add-a-new-machine).
@@ -14,7 +14,8 @@ On the new component panel, copy and paste the following attribute template into
 
 ```json
 {
-  <ATTRIBUTES>
+  "name": "<your-i2c-bus-index>",
+  "i2c_address": <int>
 }
 ```
 
@@ -22,22 +23,23 @@ On the new component panel, copy and paste the following attribute template into
 
 The following attributes are available for `viam:pca:pca9685` boards:
 
-<EXAMPLE !!>
 | Attribute | Type | Required? | Description |
 | --------- | ---- | --------- | ----------  |
-| `i2c_bus` | string | **Required** | The index of the I<sup>2</sup>C bus on the board that the board is wired to. |
-| `i2c_address` | string | Optional | Default: `0x77`. The [I<sup>2</sup>C device address](https://learn.adafruit.com/i2c-addresses/overview) of the board. |
+| `i2c_bus` | string | **Required** | The index of the I<sup>2</sup>C bus on the board with GPIO pins your `pca9685` is connected to. Often a number. <br> Example: `”1”` |
+| `i2c_address` | int | Optional | The PCA9685's unique [I<sup>2</sup>C address](https://learn.adafruit.com/i2c-addresses/overview). |
 
 ## Example configuration
 
 ### `viam:pca:pca9685`
 ```json
   {
-     "name": "<your-pca-pca9685-board-name>",
+      "name": "<your-pca-pca9685-board-name>",
       "model": "viam:pca:pca9685",
       "type": "board",
       "namespace": "rdk",
       "attributes": {
+        "i2c_bus": “1”,
+        "i2c_address": 127
       },
       "depends_on": []
   }
