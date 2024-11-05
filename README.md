@@ -38,7 +38,7 @@ The following attributes are available for `viam:pca:pca9685` boards:
       "type": "board",
       "namespace": "rdk",
       "attributes": {
-        "i2c_bus": “1”,
+        "i2c_bus": "1",
         "i2c_address": 127
       },
       "depends_on": []
