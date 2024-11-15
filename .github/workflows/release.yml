@@ -30,6 +30,8 @@ jobs:
             label: arm64
 
     runs-on: ${{ matrix.arch }}
+    container:
+      image: ${{ matrix.image }}
 
     steps:
     - uses: actions/checkout@v3
