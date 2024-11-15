@@ -39,15 +39,9 @@ jobs:
       with:
         go-version: 1.23
 
-    - name: Install canon
-      run: |
-        export PATH="$(go env GOPATH)/bin:$PATH"
-        go install github.com/viamrobotics/canon@v1.0.0
-
-    - name: Build and package
-      run: |
-        canon --profile pca
-        TARGET_OS=${{ matrix.platform }} TARGET_ARCH=${{ matrix.arch }} make module
+    - name: make module
+        run: |
+          sudo -u testbot bash -lc 'make module'
 
     - name: Upload pca module to registry
       uses: viamrobotics/upload-module@main
