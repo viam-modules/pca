@@ -1,4 +1,4 @@
-module pca
+module github.com/viam-modules/pca
 
 go 1.23.0
 
