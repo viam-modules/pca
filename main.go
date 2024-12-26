@@ -4,7 +4,7 @@ package main
 import (
 	"context"
 
-	"pca/pca9685"
+	"github.com/viam-modules/pca/pca9685"
 
 	"go.viam.com/rdk/components/board"
 	"go.viam.com/rdk/logging"
