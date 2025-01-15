@@ -10,9 +10,9 @@ require (
 	github.com/golangci/golangci-lint v1.61.0
 	github.com/pkg/errors v0.9.1
 	github.com/rhysd/actionlint v1.6.24
-	go.viam.com/api v0.1.377
-	go.viam.com/rdk v0.55.1
-	go.viam.com/utils v0.1.116
+	go.viam.com/api v0.1.380
+	go.viam.com/rdk v0.58.0
+	go.viam.com/utils v0.1.120
 	gotest.tools/gotestsum v1.10.0
 )
 
@@ -218,7 +218,7 @@ require (
 	github.com/prometheus/client_golang v1.12.2 // indirect
 	github.com/prometheus/client_model v0.6.0 // indirect
 	github.com/prometheus/common v0.37.0 // indirect
-	github.com/prometheus/procfs v0.7.3 // indirect
+	github.com/prometheus/procfs v0.15.1 // indirect
 	github.com/quasilyte/go-ruleguard v0.4.3-0.20240823090925-0fe6f58b47b1 // indirect
 	github.com/quasilyte/go-ruleguard/dsl v0.3.22 // indirect
 	github.com/quasilyte/gogrep v0.5.0 // indirect
