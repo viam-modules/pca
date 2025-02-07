@@ -19,7 +19,7 @@ On the new component panel, copy and paste the following attribute template into
 }
 ```
 
-### Attributes
+## Attributes
 
 The following attributes are available for `viam:pca:pca9685` boards:
 
@@ -28,7 +28,7 @@ The following attributes are available for `viam:pca:pca9685` boards:
 | `i2c_bus` | string | **Required** | The index of the I<sup>2</sup>C bus on the board with GPIO pins your `pca9685` is connected to. Often a number. <br> Example: `”1”` |
 | `i2c_address` | int | Optional | The PCA9685's unique [I<sup>2</sup>C address](https://learn.adafruit.com/i2c-addresses/overview). |
 
-## Example configuration
+### Example configuration
 
 ### `viam:pca:pca9685`
 ```json
@@ -45,7 +45,7 @@ The following attributes are available for `viam:pca:pca9685` boards:
   }
 ```
 
-### Next Steps
+## Next Steps
 - To test your board, expand the **TEST** section of its configuration pane or go to the [**CONTROL** tab](https://docs.viam.com/fleet/control/).
 - To write code against your board, use one of the [available SDKs](https://docs.viam.com/sdks/).
 - To view examples using a board component, explore [these tutorials](https://docs.viam.com/tutorials/).
