@@ -8,7 +8,7 @@
     {
       "api": "rdk:component:board",
       "model": "viam:pca:pca9685",
-      "markdown_link": "README.md#attributes",
+      "markdown_link": "README.md#configure-your-pca9685-board",
       "short_description": "model for the PCA9685 Arduino I2C interface"
 
     }

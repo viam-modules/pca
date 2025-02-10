@@ -5,12 +5,11 @@ This [pca module](https://app.viam.com/module/viam/pca) implements a [PCA9685 Ar
 > [!NOTE]
 > Before configuring your board, you must [create a machine](https://docs.viam.com/cloud/machines/#add-a-new-machine).
 
-## Configure your pca9685 board
-
 Navigate to the [**CONFIGURE** tab](https://docs.viam.com/configure/) of your [machine](https://docs.viam.com/fleet/machines/) in the [Viam app](https://app.viam.com/).
 [Add board / pca:pca9685 to your machine](https://docs.viam.com/configure/#components).
 
-On the new component panel, copy and paste the following attribute template into your board's attributes field:
+## Configure your pca9685 board
+copy and paste the following attribute template into your board's attributes field:
 
 ```json
 {
@@ -19,8 +18,7 @@ On the new component panel, copy and paste the following attribute template into
 }
 ```
 
-## Attributes
-
+### Attributes
 The following attributes are available for `viam:pca:pca9685` boards:
 
 | Attribute | Type | Required? | Description |
