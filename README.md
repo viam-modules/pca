@@ -23,8 +23,8 @@ The following attributes are available for `viam:pca:pca9685` boards:
 
 | Attribute | Type | Required? | Description |
 | --------- | ---- | --------- | ----------  |
-| `i2c_bus` | string | **Required** | The index of the I<sup>2</sup>C bus on the board with GPIO pins your `pca9685` is connected to. Often a number. <br> Example: `”1”` |
-| `i2c_address` | int | Optional | The PCA9685's unique [I<sup>2</sup>C address](https://learn.adafruit.com/i2c-addresses/overview). |
+| `i2c_bus` | string | **Required** | The index of the I2C bus on the board with GPIO pins your `pca9685` is connected to. Often a number. <br> Example: `”1”` |
+| `i2c_address` | int | Optional | The PCA9685's unique [I2C address](https://learn.adafruit.com/i2c-addresses/overview). |
 
 ### Example configuration
 
