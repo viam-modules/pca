@@ -1,6 +1,6 @@
 # [`pca` module](https://github.com/viam-modules/pca)
 
-This [pca module](https://app.viam.com/module/viam/pca) implements a [PCA9685 Arduino I<sup>2</sup>C Interface](https://www.adafruit.com/product/815) using the [`rdk:component:board` API](https://docs.viam.com/appendix/apis/components/board/).
+This [pca module](https://app.viam.com/module/viam/pca) implements an [Adafruit PCA9685 I<sup>2</sup>C Interface](https://www.adafruit.com/product/815) using the [`rdk:component:board` API](https://docs.viam.com/appendix/apis/components/board/).
 
 > [!NOTE]
 > Before configuring your board, you must [create a machine](https://docs.viam.com/cloud/machines/#add-a-new-machine).
