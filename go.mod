@@ -12,8 +12,8 @@ require (
 	github.com/golangci/golangci-lint v1.61.0
 	github.com/pkg/errors v0.9.1
 	github.com/rhysd/actionlint v1.6.24
-	go.viam.com/api v0.1.475
-	go.viam.com/rdk v0.93.0
+	go.viam.com/api v0.1.477
+	go.viam.com/rdk v0.94.0
 	go.viam.com/utils v0.1.167
 	gotest.tools/gotestsum v1.12.2
 )
