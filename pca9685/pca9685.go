@@ -36,16 +36,16 @@ type Config struct {
 }
 
 // Validate ensures all parts of the config are valid.
-func (conf *Config) Validate(path string) ([]string, error) {
+func (conf *Config) Validate(path string) ([]string, []string, error) {
 	var deps []string
 	if conf.I2CBus == "" {
-		return nil, resource.NewConfigValidationFieldRequiredError(path, "i2c_bus")
+		return nil, nil, resource.NewConfigValidationFieldRequiredError(path, "i2c_bus")
 	}
 
 	if conf.I2CAddress != nil && (*conf.I2CAddress < 0 || *conf.I2CAddress > 255) {
-		return nil, resource.NewConfigValidationError(path, errors.New("i2c_address must be an unsigned byte"))
+		return nil, nil, resource.NewConfigValidationError(path, errors.New("i2c_address must be an unsigned byte"))
 	}
-	return deps, nil
+	return deps, nil, nil
 }
 
 func init() {
