@@ -30,7 +30,7 @@ Copy and paste the following attribute template into your board's attributes fie
 
 ```json
 {
-  "name": "<your-i2c-bus-index>",
+  "i2c_bus": "<your-i2c-bus-index>",
   "i2c_address": <int>
 }
 ```
