@@ -3,14 +3,13 @@
   "module_id": "viam:pca",
   "visibility": "public",
   "url": "https://github.com/viam-modules/pca",
-  "description": "Go module for pca pca9685 board, compatible with Viam",
+  "description": "Module for PCA9685 16-channel PWM/Servo I2C controller board",
   "models": [
     {
       "api": "rdk:component:board",
       "model": "viam:pca:pca9685",
       "markdown_link": "README.md#configure-your-pca9685-board",
-      "short_description": "model for the PCA9685 Arduino I2C interface"
-
+      "short_description": "PCA9685 16-channel PWM/Servo I2C controller board"
     }
   ],
   "build": {
