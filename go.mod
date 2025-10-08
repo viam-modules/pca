@@ -1,8 +1,6 @@
 module github.com/viam-modules/pca
 
-go 1.23.8
-
-toolchain go1.24.7
+go 1.25.1
 
 require (
 	github.com/AlekSi/gocov-xml v1.0.0
@@ -12,9 +10,9 @@ require (
 	github.com/golangci/golangci-lint v1.61.0
 	github.com/pkg/errors v0.9.1
 	github.com/rhysd/actionlint v1.6.24
-	go.viam.com/api v0.1.475
-	go.viam.com/rdk v0.93.0
-	go.viam.com/utils v0.1.167
+	go.viam.com/api v0.1.479
+	go.viam.com/rdk v0.96.0
+	go.viam.com/utils v0.1.171
 	gotest.tools/gotestsum v1.12.2
 )
 
@@ -127,7 +125,7 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.5.2 // indirect
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 // indirect
 	github.com/golang/geo v0.0.0-20230421003525-6adc56603217 // indirect
-	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
+	github.com/golang/groupcache v0.0.0-20241129210726-2c02b8208cf8 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/golangci/dupl v0.0.0-20180902072040-3e9179ac440a // indirect
@@ -252,7 +250,7 @@ require (
 	github.com/sashamelentyev/interfacebloat v1.1.0 // indirect
 	github.com/sashamelentyev/usestdlibvars v1.27.0 // indirect
 	github.com/securego/gosec/v2 v2.21.2 // indirect
-	github.com/sergi/go-diff v1.3.1 // indirect
+	github.com/sergi/go-diff v1.4.0 // indirect
 	github.com/shazow/go-diff v0.0.0-20160112020656-b6b7b6733b8c // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/sivchari/containedctx v1.0.3 // indirect
@@ -282,7 +280,7 @@ require (
 	github.com/ultraware/funlen v0.1.0 // indirect
 	github.com/ultraware/whitespace v0.1.1 // indirect
 	github.com/uudashr/gocognit v1.1.3 // indirect
-	github.com/viamrobotics/ice/v2 v2.3.39 // indirect
+	github.com/viamrobotics/ice/v2 v2.3.40 // indirect
 	github.com/viamrobotics/webrtc/v3 v3.99.16 // indirect
 	github.com/viamrobotics/zeroconf v1.0.12 // indirect
 	github.com/wlynxg/anet v0.0.5 // indirect
