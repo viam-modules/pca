@@ -12,13 +12,12 @@ import (
 
 	"github.com/pkg/errors"
 	pb "go.viam.com/api/component/board/v1"
-	"go.viam.com/utils"
-
 	"go.viam.com/rdk/components/board"
 	"go.viam.com/rdk/components/board/genericlinux/buses"
 	"go.viam.com/rdk/grpc"
 	"go.viam.com/rdk/logging"
 	"go.viam.com/rdk/resource"
+	"go.viam.com/utils"
 )
 
 // Model for viam supported pca9685 board.
@@ -154,7 +153,7 @@ func (pca *PCA9685) parsePin(pin string) (int, error) {
 // SetPowerMode sets the board to the given power mode. If provided,
 // the board will exit the given power mode after the specified
 // duration.
-func (pca *PCA9685) SetPowerMode(ctx context.Context, mode pb.PowerMode, duration *time.Duration) error {
+func (pca *PCA9685) SetPowerMode(ctx context.Context, mode pb.PowerMode, duration *time.Duration, extra map[string]interface{}) error {
 	return grpc.UnimplementedError
 }
 
