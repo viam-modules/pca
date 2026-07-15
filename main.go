@@ -4,12 +4,12 @@ package main
 import (
 	"context"
 
-	"github.com/viam-modules/pca/pca9685"
-
 	"go.viam.com/rdk/components/board"
 	"go.viam.com/rdk/logging"
 	"go.viam.com/rdk/module"
 	"go.viam.com/utils"
+
+	"github.com/viam-modules/pca/pca9685"
 )
 
 func main() {
