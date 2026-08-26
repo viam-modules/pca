@@ -10,9 +10,9 @@ require (
 	github.com/golangci/golangci-lint/v2 v2.12.2
 	github.com/pkg/errors v0.9.1
 	github.com/rhysd/actionlint v1.7.8
-	go.viam.com/api v0.1.571
+	go.viam.com/api v0.1.574
 	go.viam.com/rdk v1.0.0
-	go.viam.com/utils v0.6.6
+	go.viam.com/utils v0.8.0
 	gotest.tools/gotestsum v1.12.2
 )
 
@@ -402,8 +402,8 @@ require (
 	google.golang.org/api v0.246.0 // indirect
 	google.golang.org/genproto v0.0.0-20250603155806-513f23925822 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260414002931-afd174a4e478 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260713224248-f5fc221cf8c4 // indirect
-	google.golang.org/grpc v1.82.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260720211330-0afa2a65878a // indirect
+	google.golang.org/grpc v1.82.1 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
