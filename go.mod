@@ -10,8 +10,8 @@ require (
 	github.com/golangci/golangci-lint/v2 v2.12.2
 	github.com/pkg/errors v0.9.1
 	github.com/rhysd/actionlint v1.7.8
-	go.viam.com/api v0.1.583
-	go.viam.com/rdk v1.9.0
+	go.viam.com/api v0.1.587
+	go.viam.com/rdk v1.10.0
 	go.viam.com/utils v0.13.0
 	gotest.tools/gotestsum v1.12.2
 )
@@ -403,8 +403,8 @@ require (
 	gonum.org/v1/plot v0.15.2 // indirect
 	google.golang.org/api v0.278.0 // indirect
 	google.golang.org/genproto v0.0.0-20260319201613-d00831a3d3e7 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20260720211330-0afa2a65878a // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260921155816-b14227669459 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20260803160001-6ac0973c030d // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260928230214-8a89bd6388cc // indirect
 	google.golang.org/grpc v1.84.0 // indirect
 	google.golang.org/protobuf v1.36.12 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
