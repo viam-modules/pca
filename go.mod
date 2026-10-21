@@ -10,9 +10,9 @@ require (
 	github.com/golangci/golangci-lint/v2 v2.12.2
 	github.com/pkg/errors v0.9.1
 	github.com/rhysd/actionlint v1.7.8
-	go.viam.com/api v0.1.590
-	go.viam.com/rdk v1.11.0
-	go.viam.com/utils v0.13.2
+	go.viam.com/api v0.1.597
+	go.viam.com/rdk v1.13.0
+	go.viam.com/utils v0.14.1
 	gotest.tools/gotestsum v1.12.2
 )
 
@@ -342,7 +342,7 @@ require (
 	github.com/uudashr/iface v1.4.2 // indirect
 	github.com/viamrobotics/ice/v2 v2.3.40 // indirect
 	github.com/viamrobotics/webrtc/v3 v3.99.16 // indirect
-	github.com/viamrobotics/zeroconf v1.0.13 // indirect
+	github.com/viamrobotics/zeroconf v1.1.0 // indirect
 	github.com/wlynxg/anet v0.0.5 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.1.2 // indirect
