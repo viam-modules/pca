@@ -11,7 +11,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/rhysd/actionlint v1.7.8
 	go.viam.com/api v0.1.603
-	go.viam.com/rdk v1.14.0
+	go.viam.com/rdk v1.14.2
 	go.viam.com/utils v0.16.1
 	gotest.tools/gotestsum v1.12.2
 )
